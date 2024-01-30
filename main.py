@@ -31,6 +31,12 @@ resources = {
     "money": 0.0,
 }
 
+coins = {
+    "quarter": 0.25,
+    "dime": 0.1,
+    "nickle": 0.05,
+    "penny": 0.01,
+}
 
 def report_resources():
     print(f"Water: {resources['water']}ml")
@@ -66,3 +72,7 @@ while True:
         # enough resources
         else:
             print(f"Alright! That'll be ${drink['cost']},please")
+            # TODO choose coin loop
+            # TODO coin insert
+            # TODO after loop, calculate change
+

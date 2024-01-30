@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d57c7d8-1424-4898-b971-3110cf4bc7d8" name="Changes" comment="Added main and money resource">
+    <list default="true" id="4d57c7d8-1424-4898-b971-3110cf4bc7d8" name="Changes" comment="Expanded main. added method to use resources">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -21,6 +21,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NamesNotJordan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2ec6f04a-67eb-445e-b0ff-2598c89a7ba0" />
+        <option name="url" value="https://github.com/NamesNotJordan/CoffeeMachine.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -72,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706642885372</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Expanded main. added method to use resources">
+      <option name="closed" value="true" />
+      <created>1706644908315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706644908315</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started project" />
     <MESSAGE value="Added main and money resource" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added main and money resource" />
+    <MESSAGE value="Expanded main. added method to use resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="Expanded main. added method to use resources" />
   </component>
 </project>
