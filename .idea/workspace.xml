@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d57c7d8-1424-4898-b971-3110cf4bc7d8" name="Changes" comment="Started project">
+    <list default="true" id="4d57c7d8-1424-4898-b971-3110cf4bc7d8" name="Changes" comment="Added main and money resource">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -64,7 +64,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706642398153</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added main and money resource">
+      <option name="closed" value="true" />
+      <created>1706642885372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706642885372</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,6 +88,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started project" />
+    <MESSAGE value="Added main and money resource" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added main and money resource" />
   </component>
 </project>

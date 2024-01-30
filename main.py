@@ -33,11 +33,22 @@ resources = {
 
 
 def report_resources():
-    print(f"water")
+    print(f"Water: {resources['water']}ml")
+    print(f"Milk: {resources['milk']}ml")
+    print(f"Coffee: {resources['coffee']}g")
+    print(f"Money: ${resources['money']}")
 
 
-def check_resources_for_drink(drink):
-    return drink['water'] <= resources['water'] & drink['milk'] <= resources['milk'] & drink['coffee'] <= resources['coffee']
+def check_resources_for_drink(ingredients):
+    for item in ingredients:
+        if ingredients[item] > resources[item]:
+            return False
+    return True
+
+
+def use_ingredients(order_ingredients):
+    for item in order_ingredients:
+        resources[item] -= order_ingredients[item]
 
 
 while True:
@@ -46,9 +57,12 @@ while True:
         break
     elif choice == 'report':
         report_resources()
-    elif choice == 'espresso':
-        pass
-    elif choice == 'latte':
-        pass
-    elif choice == 'cappuccino':
-        pass
+    else:
+        drink = MENU[choice]
+        print(f"okay, one {choice}!")
+        if not check_resources_for_drink(drink['ingredients']):
+            print(f"Sorry! Looks like we don't have enough ingredients for a {choice}")
+            break
+        # enough resources
+        else:
+            print(f"Alright! That'll be ${drink['cost']},please")
